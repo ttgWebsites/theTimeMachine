@@ -1,0 +1,54 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="bookSummary">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html" class="ui-btn-active ui-state-persist">Book Summary</a></li>
+				<li><a href="themes.html">Themes</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Book Summary</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">So basically...</li>
+					<!--Place the book summary text below-->
+					<li data-theme="d">The Time Machine follows the story of a man who has created a machine that 
+					can send him forward in time. The narrator of the story meets the time traveler and learns his stories of the future. 
+					The time traveler takes his machine over 800,000 years into the future when he finally decides to stop and explore his surroundings. 
+					In the future he discovers a society in which the working class has been forced underground and lives an atrocious lifestyle, 
+					while the business class has become a very afraid and feeble species that is very dependent on the working class or morlocks. 
+					The time traveler loses his machine during his exploration, and must go through tough measures to find it and continue on in his travel. 
+					During in his experiences he befriends an Eloi woman, the business class, Weena. He travels along with her in his 
+					experiences yet ultimately they get separated in his quest to find his machine. Once he finds his machine he takes 
+					it further into the future, seemingly all the way to the end of humankind, and the earth. He then returns to the present
+					day and tells of his story.</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>The Time Machine</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>
